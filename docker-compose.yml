@@ -4,6 +4,7 @@ services:
   app:
     build: .
     container_name: "api_github_actions_aws"
+    image: node:16.13.1
     ports:
       - "3333:3333"
     volumes:
