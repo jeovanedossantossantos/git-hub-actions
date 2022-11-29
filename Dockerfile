@@ -1,7 +1,7 @@
 FROM node:16.13.1
 WORKDIR /user/app
 COPY ./package*.json ./
-RUN /bin/sh -c apt-get update -y \ yarn
+RUN yarn
 COPY . .
 
 EXPOSE 3333
