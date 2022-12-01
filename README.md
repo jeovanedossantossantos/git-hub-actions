@@ -43,6 +43,8 @@ repositório ECR ou usar * para permitir o acesso a qualquer repositório ECR em
 
 AllowPussPullPolicy
 
+<a href="https://docs.github.com/pt/github-ae@latest/actions/automating-builds-and-tests/building-and-testing-python">Mais informações</a>
+
 
 
 
