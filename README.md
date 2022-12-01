@@ -5,7 +5,7 @@
 
 Permite oter um tokem de autenticação.
 
-````
+```
 {
     "Sid":"GetAuthorizationToken"
 
@@ -20,8 +20,10 @@ Permite oter um tokem de autenticação.
 
 ```
 
+
 Permite enviar imagens docker. Opcionalmente, você pode restringir a um único
 repositório ECR ou usar * para permitir o acesso a qualquer repositório ECR em sua conta. Lembres-se de que você precisa atualizar a região e o número da cont. 
+
 
 ```
 {
@@ -40,6 +42,8 @@ repositório ECR ou usar * para permitir o acesso a qualquer repositório ECR em
 }
 
 ```
+
+
 
 AllowPussPullPolicy
 
